@@ -1,0 +1,865 @@
+@media screen and (max-width: 1300px) {
+  .content-grid {
+    width: 700px;
+    padding: 80px 0px;
+    margin: 0 auto;
+}
+.content-grid.game-part {
+  width: 1050px;
+  padding: 90px 0px;
+  margin: 0 auto;
+}
+.content-grid.player-game-part{
+  width: 1050px;
+  padding: 90px 0px;
+  margin: 0 auto;
+}
+.badge-item-preview {
+  display: -ms-flexbox;
+  display: flex;
+  height: 120px;
+  padding: 25px 15px 0;
+  border-radius: 12px;
+  background-color: #fff;
+  box-shadow: 0 0 40px 0 rgb(94 92 154 / 6%);
+  margin-bottom: 30px;
+}
+.badge-item-preview .badge-item-preview-image {
+  width: 50px;
+  height: 55px;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+.menu-main .menu-main-item .menu-main-item-link {
+  padding: 0 15px;
+  display: block;
+  color: #fff;
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 80px;
+  cursor: pointer;
+  transition: color 0.2s ease-in-out;
+  letter-spacing: 0.5px;
+}
+.notification-home p {
+  position: absolute;
+  background: #23d2e2;
+  color: #ffffff;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  top: -15px;
+  right: 2px;
+  padding: 5px 7px;
+  font-size: 12px;
+  font-weight: 600;
+}
+.navigation-widget {
+  width: 230px;
+}
+.header {
+  height: 70px;
+}
+.chat-widget {
+  width: 230px;
+}
+.sidebar.navigation-widget {
+  padding-top: 0;
+  margin-top: 70px;
+  overflow-y: auto;
+}
+.sidebar {
+  height: 100%;
+  padding-top: 70px;
+  position: fixed;
+  top: 0;
+  z-index: 9999;
+}
+.navigation-widget.sidebar-hide {
+  width: 70px;
+}
+.sidebar.chat-widget.closed {
+  -webkit-transform: translate(220px);
+  transform: translate(160px);
+}
+.tabsviewuserside ul li a {
+  color: #b1b1b1;
+  font-weight: 600;
+  text-align: center;
+  display: inherit;
+  letter-spacing: 0px;
+  font-size: 14px;
+}
+.user-preview .user-preview-info .user-short-description.tiny .user-short-description-title {
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+.user-preview .user-preview-info .user-short-description.tiny .user-short-description-text {
+  font-size: 10px;
+  margin-top: 10px;
+}
+.upcomming-tournamnet .user-preview.landscape .user-preview-info .user-short-description {
+  width: 150px;
+}
+.upcomming-tournamnet .user-preview.landscape .teamvs:after {
+  content: '';
+  position: absolute;
+  width: 20px;
+  height: 30px;
+  background-image: url(../img/coach/vs.png);
+  background-size: 20px 30px;
+  background-repeat: no-repeat;
+  top: 15px;
+  right: -20px;
+}
+.upcomming-tournamnet .user-preview.landscape .user-stats .user-stat {
+  padding: 0px 10px;
+}
+.upcomming-tournamnet .user-stat .user-stat-title {
+  font-size: 12px;
+  margin-bottom: 0;
+}
+.achievment-link a {
+  color: #ffffff;
+  padding: 7px 15px;
+  background: #23d2e2;
+  display: inline-block;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0px 6px 26px -10px #bbbaba;
+  font-weight: 900;
+  font-size: 12px;
+}
+.moves-detail .whitemoves p {
+  display: inline-block;
+  background: #ec8213;
+  padding: 8px 20px;
+  color: white;
+  border-radius: 5px 0px 5px 0px;
+  font-size: 14px;
+  margin-bottom: 5px;
+  font-weight: 900;
+  margin-top: 5px;
+}
+.moves-detail .blackmoves p {
+  display: inline-block;
+  background: #000000;
+  padding: 8px 20px;
+  color: white;
+  border-radius: 5px 0px 5px 0px;
+  font-size: 14px;
+  margin-bottom: 5px;
+  font-weight: 900;
+  margin-top: 5px;
+}
+.moves-detail {
+  display: inline-block;
+  width: 100%;
+  overflow: auto;
+  height: 340px;
+}
+.moves-detail .whitemoves {
+  width: 50%;
+  border-right: 1px solid #e8e8e869;
+  float: left;
+  height: 340px;
+  display: inline-block;
+}
+.game-board-part .board-deasign .row-part .square .fas {
+  font-size: 36px;
+  width: 100%;
+  margin: 0 auto;
+}
+.grid.grid-3-3-3, .grid.grid-3-3-3-3 {
+  grid-template-columns: repeat(auto-fit, 200px);
+}
+.user-preview.landscape .user-stats .user-stat {
+  padding: 0px 10px;
+}
+.chat-widget-messages .chat-widget-message {
+  display: block;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: padding 0.4s ease-in-out;
+}
+.user-status {
+  min-height: 44px;
+  padding: 2px 0 0 60px;
+  position: relative;
+}
+.result-display {
+  height: 280px;
+  overflow-y: auto;
+}
+.loader-game-part .loader-part {
+  height: 70px;
+  align-items: center;
+  display: flex;
+}
+
+.player-game-part .heading-part h3 {
+  font-size: 16px;
+  font-weight: 900;
+  text-align: left;
+}
+.player-game-part .action-buttons ul li button {
+  display: inline-block;
+  padding: 5px 10px;
+  background: #ffffff;
+  width: 120px;
+  color: #615dfa;
+  font-weight: 500;
+  border-radius: 13px;
+  font-size: 12px;
+  box-shadow: 0px 0px 20px -10px #00000000;
+  border: 1px solid #d6d5d5;
+}
+.player-game-part .action-buttons ul li button.active {
+  display: inline-block;
+  padding: 5px 10px;
+  background: #23d2e2;
+  width: 120px;
+  color: white;
+  font-weight: 450;
+  border-radius: 13px;
+  font-size: 12px;
+  box-shadow: 0px 4px 20px -10px #000000ba;
+  border: 1px solid #23d2e2;
+}
+.points-pieces .points-part {
+  display: inline-block;
+  width: 25%;
+  text-align: center;
+  border: 2px solid #e8e8e8;
+  height: 45px;
+  border-radius: 15px;
+  float: left;
+  margin-right: 2%;
+}
+.points-pieces .points-part p {
+  margin-bottom: 0px;
+  line-height: 45px;
+  font-weight: 900;
+  color: black;
+  font-size: 16px;
+}
+.points-pieces .pieces-part {
+  display: inline-block;
+  width: 73%;
+  text-align: center;
+  border: 2px solid #e8e8e8;
+  height: 45px;
+  border-radius: 15px;
+  float: left;
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+  padding-left: 5px;
+}
+.points-pieces .pieces-part ul li i {
+  font-size: 32px;
+  line-height: 40px;
+  color: #000000;
+}
+.player-right-side .chat-moves .heading-parts h3 {
+  text-align: center;
+  background: #615dfa;
+  font-size: 14px;
+  font-weight: 600;
+  color: #e6e0e0;
+}
+.random-games .puzzle-moves-page .headingpart h4 {
+  font-size: 14px;
+  margin-bottom: 0px;
+  text-align: center;
+  font-weight: 600;
+  color: #e6e0e0;
+}
+.form-box {
+  width: 400px;
+}
+}
+@media screen and (max-width: 1200px) {
+  .content-grid {
+    width: 650px;
+    padding: 100px 0px;
+    margin: 0 auto;
+}
+.form-box {
+  width: 40 0px;
+}
+.content-grid.player-game-part{
+  width: 900px;
+  padding: 100px 0px;
+  margin: 0 auto;
+}
+.content-grid.game-part {
+  width: 900px;
+  padding: 100px 0px;
+  
+}
+.loader-game-part .loader-part {
+  height: 60px;
+  align-items: center;
+  display: flex;
+}
+.username-modal .modal-dialog {
+  width: 400px;
+  max-width: 400px;
+  margin: 1.75rem auto;
+}
+.username-modal .top-part img {
+  width: 60px;
+  height: auto;
+  margin-bottom: 20px;
+}
+.username-modal .top-part h3 {
+  color: #000000;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.section-banner {
+  min-height: 160px;
+  padding: 40px 40px 39px 180px;
+}
+.right-status-part {
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0px 2px 20px -14px #7575758c;
+  margin-top: 60px;
+  border: 2px solid #bdbdbda8;
+}
+.result-display {
+  height: 220px;
+  overflow-y: auto;
+}
+.badge-item-preview {
+  display: -ms-flexbox;
+  display: flex;
+  height: 120px;
+  padding: 25px 15px 0;
+  border-radius: 12px;
+  background-color: #fff;
+  box-shadow: 0 0 40px 0 rgb(94 92 154 / 6%);
+  margin-bottom: 30px;
+}
+.badge-item-preview .badge-item-preview-image {
+  width: 40px;
+  height: 45px;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+.badge-item-preview .badge-item-preview-info .badge-item-preview-title {
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.badge-item-preview .badge-item-preview-info .badge-item-preview-timestamp {
+  margin-top: 14px;
+  color: #adafca;
+  font-size: 10px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.badge-item-preview-timestamp a {
+  color: #ffffff;
+  padding: 8px 2px;
+  background: #23d2e2;
+  width: 80px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0px 6px 26px -10px #bbbaba;
+  font-weight: 900;
+  text-transform: capitalize;
+}
+.menu-main .menu-main-item .menu-main-item-link {
+  padding: 0 15px;
+  display: block;
+  color: #fff;
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 80px;
+  cursor: pointer;
+  transition: color 0.2s ease-in-out;
+  letter-spacing: 0.5px;
+}
+.notification-home p {
+  position: absolute;
+  background: #23d2e2;
+  color: #ffffff;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  top: -13px;
+  right: 2px;
+  padding: 4px 6px;
+  font-size: 12px;
+  font-weight: 600;
+}
+.navigation-widget {
+  width: 200px;
+}
+.header {
+  height: 60px;
+}
+.chat-widget {
+  width: 200px;
+}
+.sidebar.navigation-widget {
+  padding-top: 0;
+  margin-top: 60px;
+  overflow-y: auto;
+}
+.sidebar {
+  height: 100%;
+  padding-top: 60px;
+  position: fixed;
+  top: 0;
+  z-index: 9999;
+}
+.navigation-widget.sidebar-hide {
+  width: 60px;
+}
+.sidebar.chat-widget.closed {
+  -webkit-transform: translate(220px);
+  transform: translate(140px);
+}
+.tabsviewuserside ul li a {
+  color: #b1b1b1;
+  font-weight: 600;
+  text-align: center;
+  display: inherit;
+  letter-spacing: 0px;
+  font-size: 12px;
+}
+.interactive-input.small {
+  height: 40px;
+}
+.user-status {
+  min-height: 44px;
+  padding: 2px 0 0 50px;
+  position: relative;
+}
+.chat-widget-messages .chat-widget-message {
+  display: block;
+  padding: 10px 15px;
+  cursor: pointer;
+  transition: padding 0.4s ease-in-out;
+}
+.sidebar.chat-widget .chat-widget-form {
+  bottom: 50px;
+}
+.user-preview .user-preview-info .user-short-description.tiny .user-short-description-title {
+  font-size: 10px;
+  margin-bottom: 0px;
+}
+.user-preview .user-preview-info .user-short-description.tiny .user-short-description-text {
+  font-size: 8px;
+  margin-top: 5px;
+}
+.upcomming-tournamnet .user-preview.landscape .user-preview-info .user-short-description {
+  width: 150px;
+}
+.upcomming-tournamnet .user-preview.landscape .teamvs:after {
+  content: '';
+  position: absolute;
+  width: 15px;
+  height: 25px;
+  background-image: url(../img/coach/vs.png);
+  background-size: 15px 25px;
+  background-repeat: no-repeat;
+  top: 12px;
+  right: -10px;
+}
+.gameroom-modal .modal-dialog {
+  max-width: 500px;
+  margin: 1.75rem auto;
+  width: 500px;
+}
+.gameroom-modal .play-with .heading-part h3 {
+  font-size: 14px;
+  font-weight: 900;
+  text-align: left;
+}
+.gameroom-modal .play-with .list-part ul li a {
+  display: inline-block;
+  padding: 8px 10px;
+  background: #23d2e2;
+  width: 100px;
+  font-weight: 600;
+  border-radius: 5px;
+  font-size: 11px;
+  box-shadow: 0px 0px 20px -10px #00000000;
+  border: 1px solid #23d2e2;
+  text-align: center;
+  color: #ffffff;
+  margin-right: 15px;
+}
+.gameroom-modal .close-icon {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  background: #615dfa;
+  text-align: center;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  color: #ffffff;
+  line-height: 25px;
+  font-size: 12px;
+}
+.header-settings-dropdown-trigger img {
+  width: 20px;
+  height: auto;
+}
+.interactive-input {
+  width: 100%;
+  height: 41px;
+  position: relative;
+}
+.notification-home {
+  display: flex !important;
+  position: relative !important;
+  margin-top: 35px !important;
+  font-size: 12px !important;
+}
+.user-preview.landscape .user-stats {
+  margin-top: 10px !important;
+}
+.upcomming-tournamnet .user-preview.landscape .user-stats .user-stat {
+  padding: 0px 10px;
+}
+.upcomming-tournamnet .user-stat .user-stat-title {
+  font-size: 10px;
+  margin-bottom: 0;
+}
+.achievment-link a {
+  color: #ffffff;
+  padding: 7px 15px;
+  background: #23d2e2;
+  display: inline-block;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0px 6px 26px -10px #bbbaba;
+  font-weight: 900;
+  font-size: 10px;
+}
+.moves-detail .whitemoves p {
+  display: inline-block;
+  background: #ec8213;
+  padding: 8px 15px;
+  color: white;
+  border-radius: 5px 0px 5px 0px;
+  font-size: 12px;
+  margin-bottom: 5px;
+  font-weight: 900;
+  margin-top: 5px;
+}
+.moves-detail .blackmoves p {
+  display: inline-block;
+  background: #000000;
+  padding: 8px 15px;
+  color: white;
+  border-radius: 5px 0px 5px 0px;
+  font-size: 12px;
+  margin-bottom: 5px;
+  font-weight: 900;
+  margin-top: 5px;
+}
+.moves-detail {
+  display: inline-block;
+  width: 100%;
+  overflow: auto;
+  height: 290px;
+}
+.moves-detail .whitemoves {
+  width: 50%;
+  border-right: 1px solid #e8e8e869;
+  float: left;
+  height: 290px;
+  display: inline-block;
+}
+.puzzle-moves-page {
+  border: 1px solid whitesmoke;
+  border-radius: 15px;
+  margin-top: 60px;
+  overflow: hidden;
+}
+.game-board-part .board-deasign .row-part .square .fas {
+  font-size: 30px;
+  width: 100%;
+  margin: 0 auto;
+}
+.game-part .action-buttons ul li button {
+  display: inline-block;
+  padding: 5px 10px;
+  background: #23d2e2;
+  width: 120px;
+  color: white;
+  font-weight: 450;
+  border-radius: 5px;
+  font-size: 12px;
+  box-shadow: 0px 4px 20px -10px #000000ba;
+}
+.game-part .action-buttons ul li {
+  margin-bottom: 10px;
+}
+.game-part .heading-part h3 {
+  font-size: 14px;
+  font-weight: 900;
+  text-align: center;
+}
+.game-part .puzzle-details .heading-part h3 {
+  font-size: 14px;
+  font-weight: 900;
+  text-align: left;
+}
+.puzzle-details .totals-line .totals-line-title {
+  font-size: 12px;
+  font-weight: 900;
+  color: #18204c;
+}
+.sidebar-box.puzzle-details .sidebar-box-items .price-title {
+  text-align: center;
+  color: #23d2e2;
+  font-size: 12px;
+}
+.puzzle-details .totals-line-list .totals-line {
+  margin-bottom: 5px;
+}
+.puzzle-title h3 {
+  font-size: 16px;
+  margin-bottom: 0px;
+  color: #615dfa;
+  font-weight: 700;
+}
+.user-avatar.small.no-outline .user-avatar-content img {
+  width: 36px;
+  height: auto;
+  position: relative;
+}
+.player-detail .user-status {
+  min-height: 44px;
+  padding: 2px 0 0 45px;
+  position: relative;
+}
+.player-detail .user-status .user-status-text {
+  margin-top: 2px;
+  color: #c7c7c7;
+  font-size: 0.875rem;
+  font-weight: 600;
+  margin-bottom: 1px;
+}
+.Chess-board-part .game-time ul li {
+  font-size: 10px;
+  font-weight: 600;
+  margin-right: 2px;
+}
+.Chess-board-part .game-time ul li img {
+  width: 12px;
+  margin-right: 5px;
+  margin-bottom: 2px;
+}
+.player-detail  .user-status .user-status-title.medium {
+  font-size: 14px;
+}
+.grid.grid-3-3-3, .grid.grid-3-3-3-3 {
+  grid-template-columns: repeat(auto-fit, 200px);
+}
+.user-preview.landscape .user-stats .user-stat {
+  padding: 0px 5px;
+}
+.puzzle-moves-page .headingpart {
+  background: #6e98bf;
+  text-align: center;
+  padding: 10px 10px;
+}
+.puzzle-moves-page .headingpart h4 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 0px;
+  color: #ffffff;
+}
+.user-stat .user-stat-title {
+  font-size: 12px;
+}
+.navigation-widget.sidebar-hide .user-short-description .hexagon-image-82-90 img {
+  width: 40px;
+  height: auto;
+}
+.menu .menu-item {
+  padding: 0 10px;
+  margin-bottom: 10px;
+}
+.menu .menu-item .menu-item-link img {
+  width: auto;
+  height: 14px;
+  margin-right: 20px;
+  margin-top: -1px;
+}
+.sidemenu-trigger.navigation-widget-trigger {
+  margin-left: 0%;
+}
+.chat-widget.closed .chat-widget-messages .chat-widget-message {
+  padding: 10px 10px;
+}
+.profile-header .profile-header-cover {
+  height: 180px;
+}
+.upcomming-tournamnet .user-preview-cover.liquid img {
+  width: 25px;
+  height: auto;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.user-short-description .hexagon-image-82-90 img {
+  width: 81px;
+  height: auto;
+}
+.user-short-description .user-short-description-avatar {
+  position: absolute;
+  top: -85px;
+  left: 50%;
+  margin-left: -50px;
+}
+.user-short-description .user-short-description-title {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+.user-short-description .user-short-description-text {
+  margin-top: 10px;
+  color: #adafca;
+  font-size: 12px;
+  font-weight: 700;
+}
+.menu .menu-item .menu-item-link {
+  display: block;
+  height: 34px;
+  padding-left: 10px;
+  border-radius: 12px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 34px;
+  position: relative;
+  transition: all 0.2s ease-in-out;
+  color: #585656;
+}
+.player-game-part .heading-part h3 {
+  font-size: 14px;
+  font-weight: 900;
+  text-align: left;
+}
+.player-game-part .action-buttons ul li button {
+  display: inline-block;
+  padding: 5px 10px;
+  background: #ffffff;
+  width: 100px;
+  color: #615dfa;
+  font-weight: 500;
+  border-radius: 13px;
+  font-size: 10px;
+  box-shadow: 0px 0px 20px -10px #00000000;
+  border: 1px solid #d6d5d5;
+}
+.player-game-part .action-buttons ul li button.active {
+  display: inline-block;
+  padding: 5px 10px;
+  background: #23d2e2;
+  width: 100px;
+  color: white;
+  font-weight: 450;
+  border-radius: 13px;
+  font-size: 10px;
+  box-shadow: 0px 4px 20px -10px #000000ba;
+  border: 1px solid #23d2e2;
+}
+.points-pieces .points-part {
+  display: inline-block;
+  width: 25%;
+  text-align: center;
+  border: 2px solid #e8e8e8;
+  height: 40px;
+  border-radius: 15px;
+  float: left;
+  margin-right: 2%;
+}
+.points-pieces .points-part p {
+  margin-bottom: 0px;
+  line-height: 40px;
+  font-weight: 900;
+  color: black;
+  font-size: 16px;
+}
+.points-pieces .pieces-part {
+  display: inline-block;
+  width: 73%;
+  text-align: center;
+  border: 2px solid #e8e8e8;
+  height: 40px;
+  border-radius: 15px;
+  float: left;
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+  padding-left: 5px;
+}
+.points-pieces .pieces-part ul li i {
+  font-size: 30px;
+  line-height: 35px;
+  color: #000000;
+}
+.player-right-side .chat-moves .heading-parts h3 {
+  text-align: center;
+  background: #615dfa;
+  font-size: 14px;
+  font-weight: 600;
+  color: #e6e0e0;
+  padding: 12px 10px;
+}
+.random-games .puzzle-moves-page .headingpart h4 {
+  font-size: 14px;
+  margin-bottom: 0px;
+  text-align: center;
+  font-weight: 600;
+  color: #e6e0e0;
+}
+.random-games .puzzle-moves-page .headingpart {
+  background: #615dfa;
+  text-align: center;
+  padding: 12px 10px;
+}
+.player-right-side .chat-moves .chatt-parts {
+  width: 50%;
+  border: 1px solid #e4e2e2;
+  height: 250px;
+  border-radius: 15px 0px 0px 15px;
+  float: left;
+  overflow: hidden;
+}
+.chatt-messege {
+  height: 120px;
+  overflow-y: auto;
+}
+.player-right-side .chat-moves .moves-parts {
+  width: 50%;
+  border: 1px solid #e4e2e2;
+  height: 250px;
+  border-radius: 0px 15px 15px 0px;
+  float: left;
+  border-left: 0pc;
+  overflow: hidden;
+}
+.user-avatar.away:before, .user-avatar.offline:before, .user-avatar.online:before {
+  content: "";
+  width: 12px;
+  height: 12px;
+  border: 3px solid #fff;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 2px;
+  right: 5px;
+  z-index: 10;
+}
+}
